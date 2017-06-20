@@ -6,6 +6,7 @@
 ```
 //根据文章的状态，上架时间，下架时间，关键字模糊查询
 //分页
+//limit 后面两个参数：偏移位置  偏移量
 public function tbGetActList($actListParam, $pageNum, $pageSize) {
         $where = $this->initSearch($actListParam);
 
